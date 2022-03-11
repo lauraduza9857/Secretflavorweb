@@ -1,0 +1,102 @@
+.banner{
+   
+    background: linear-gradient(180deg, #FDFDFD 0%, rgba(253, 253, 253, 0.35) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 64px;
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+
+.banner_nav{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.banner__list{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.background_homab{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+.classAboutus_article{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.classAboutus_article--1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15rem;
+}
+
+.classAboutus_articleTitle{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+color: #7474C4;
+}
+
+.classAboutus_articledescription{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+color: #000000;
+}
+
+.notcupcakes{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 25%;
+}
+
+
+.classAboutus_articleCard{
+    background: rgba(196, 204, 240, 0.85);
+    width: 20%;
+    border-radius: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.classAboutus_articleCard img{
+    width: 80%;
+    margin: 1rem;
+}
+
+.classAboutus_articleCard_info{
+    background: rgba(251, 246, 246, 0.8);
+    border-radius: 30px;
+}
