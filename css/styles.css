@@ -100,3 +100,49 @@ color: #000000;
     background: rgba(251, 246, 246, 0.8);
     border-radius: 30px;
 }
+
+.classMenu{
+    width: 100%;
+}
+
+.classMenu_article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.classMenu_article article{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.classMenu_article--1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.classMenu_articleTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    
+    color: #7474C4;
+}
+
+.classMenu_articleCard{
+    background: rgba(81, 190, 195, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+    width: 40%;
+    margin: 0 2rem;
+}
+
+.classMenu_articleCard_information{
+    margin: 1.5rem;
+}
